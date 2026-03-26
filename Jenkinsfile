@@ -13,7 +13,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/CS-admin-hub/nodejs-golden-cicd.git'
+                git branch: 'main', url: 'https://github.com/CS-admin-hub/nodejs-cicd-jenkins.git'
             }
         }
 
